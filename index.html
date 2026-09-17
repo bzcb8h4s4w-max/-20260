@@ -182,17 +182,18 @@
   <div class="reset-btn" onclick="allReset()">ALL RESET</div>
 
   <script>
-    const sounds = [
+        const sounds = [
       { id: "01", name: "居酒屋", src: "居酒屋.mp3", defaultVol: 1.0 },
       { id: "02", name: "星めぐり蝉", src: "星めぐり蝉.mp3", defaultVol: 1.0 },
       { id: "03", name: "校歌", src: "校歌.mp3", defaultVol: 1.0 },
       { id: "04", name: "着信音", src: "着信音.mp3", defaultVol: 1.0 },
       { id: "05", name: "汽車", src: "汽車.mp3", defaultVol: 1.0 },
       { id: "06", name: "鶴6", src: "鶴.mp3", defaultVol: 1.0 },
-      { id: "07", name: "星めぐりジョバンニ7", src: "星めぐり歌9ジョバンニ.mp3", defaultVol: 1.0 },
+      { id: "07", name: "星めぐりジョバンニ7", src: "星めぐりの歌9ジョバンニ.mp3", defaultVol: 1.0 },
       { id: "08", name: "スピカ8", src: "スピカ.mp3", defaultVol: 1.0 },
-       { id: "09", name: "ヒグラシ", src: "ヒグラシ.mp3", defaultVol: 1.0 }
+      { id: "09", name: "ヒグラシ", src: "ヒグラシ.mp3", defaultVol: 1.0 }
     ];
+
 
     const FADE_DURATION = 1000;
     const audioPlayers = new Array(sounds.length).fill(null);
